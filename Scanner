@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class ScannerOne {
+
+	public static void main(String[] args) {
+
+		Scanner obj = new Scanner(System.in); 
+		
+		System.out.println("Enter Full name");
+		String name = obj.nextLine();
+		System.out.println("Your Full name is: " +name);
+		obj.close();
+		
+	}
+
+}
