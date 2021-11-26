@@ -11,9 +11,9 @@ public static void main(String[] args) {
 }
 
 
-####################
-Updating variables
-####################
+##################################
+Updating variables Conventionally
+##################################
 
 public class Bus {
     public static void main(String[] args) {
@@ -29,4 +29,25 @@ public class Bus {
         System.out.println("Final stop passengers: " +passengers);
     }
 }
+
+
+##################################
+Updating variables using =+ / -=
+##################################
+
+public class Bus {
+    public static void main(String[] args) {
+        
+        int passengers=0;
+        passengers +=9 ;
+        System.out.println("Starting passengers: "+passengers);
+
+        passengers-=5;
+        System.out.println("Passengers after first stop: "+passengers);
+   
+        passengers-=4;
+        System.out.println("Final stop passengers: " +passengers);
+    }
+}
+
 
