@@ -23,5 +23,6 @@ public class Biography {
         System.out.println("When I'm tired, I like to play " +game+".");
         System.out.println("In school, my favourite subject was "+subject + ", I scored an "+ grade +".");
 
+        //Concatination
     }
 }
