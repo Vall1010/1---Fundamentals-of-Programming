@@ -1,10 +1,10 @@
+public class PrintProgram{
+    public static void main(String[] args) {
+        System.out.println("Printing is fun");
+        System.out.println("Java>Phyton");
+        System.out.println("I spilled Java all over my paper");
+        
+    }
 
-public class HelloApp {
-
-	public static void main(String[] args) {
-
-		System.out.println("Print Text Here");
-
-	}
 
 }
