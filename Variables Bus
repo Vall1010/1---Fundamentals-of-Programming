@@ -1,0 +1,25 @@
+public class Bus {
+    public static void main(String[] args) {
+        
+        int passengers=0;
+        String firstStop ="Number of Passengers in First Stop: ";
+        String secondStop ="Number of Passengers in Second Stop: ";
+        String finalStop ="Number of Passengers in Final Stop: ";
+        
+        System.out.println("Start");
+
+
+        passengers +=9 ;
+        System.out.println(firstStop+passengers);
+
+        passengers-=5;
+        System.out.println(secondStop+passengers);
+   
+        passengers-=4;
+        System.out.println(finalStop+passengers);
+
+        System.out.println("End..");
+
+
+    }
+}
