@@ -9,3 +9,24 @@ public static void main(String[] args) {
 }
 
 }
+
+
+####################
+Updating variables
+####################
+
+public class Bus {
+    public static void main(String[] args) {
+        
+        int passengers=0;
+        passengers = passengers +9 ;
+        System.out.println("Starting passengers: "+passengers);
+
+        passengers=passengers -5;
+        System.out.println("Passengers after first stop: "+passengers);
+   
+        passengers = passengers-4;
+        System.out.println("Final stop passengers: " +passengers);
+    }
+}
+
