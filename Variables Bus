@@ -49,9 +49,9 @@ public class Bus {
         terminal="final stop: ";
         System.out.println(sentence+terminal+passengers);
 
-        sentence="end";
-        System.out.println(sentence);
+        System.out.println("end of shift..");
 
 
     }
 }
+
