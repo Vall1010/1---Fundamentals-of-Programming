@@ -23,3 +23,35 @@ public class Bus {
 
     }
 }
+
+########
+Updates
+########
+
+
+public class Bus {
+    public static void main(String[] args) {
+        
+        int passengers=0;
+        String sentence ="Number of Passengers in ";
+        String terminal = "first stop: ";
+    
+
+
+        passengers +=9 ;
+        System.out.println(sentence+terminal+passengers);
+
+        passengers-=5;
+        terminal="second stop: ";
+        System.out.println(sentence+terminal+passengers);
+   
+        passengers-=4;
+        terminal="final stop: ";
+        System.out.println(sentence+terminal+passengers);
+
+        sentence="end";
+        System.out.println(sentence);
+
+
+    }
+}
